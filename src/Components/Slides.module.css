@@ -1,0 +1,56 @@
+.main {
+  background: #ffc107;
+}
+
+.intro h1 {
+  color: #0a490a;
+  font-size: 4rem;
+  line-height: 90px;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.article {
+  position: relative;
+}
+
+.article p {
+  color: #0a490a;
+  padding-top: 30px;
+  font-size: 1.5rem;
+}
+
+.foto {
+  max-width: 450px;
+
+  overflow: hidden; /* Se a imagem for maior, esconder partes que saem da div */
+}
+
+.foto img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .intro {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 610px) {
+  .intro h1 {
+    font-size: 3rem;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .foto {
+    width: 300px;
+  }
+}

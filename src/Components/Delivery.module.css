@@ -1,0 +1,47 @@
+.section {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteudo h3 {
+  color: #0a490a;
+}
+
+.icone {
+  width: 50px;
+}
+
+.titulo {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.infos {
+  margin-top: 10px;
+}
+.infos li {
+  margin-top: 10px;
+}
+
+.infos span {
+  font-weight: bold;
+}
+
+.infos p {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .section {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .infos p {
+    font-size: 14px;
+  }
+}

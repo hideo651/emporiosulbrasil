@@ -1,0 +1,48 @@
+.header {
+  background: var(--cor-1);
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 30px 0 30px 0; */
+}
+
+.logoDiv {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logoDiv h3 {
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 60px;
+}
+
+.logo > img {
+  border-radius: 50%;
+}
+
+.contatos {
+  display: flex;
+  gap: 10px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 950px) {
+  .nav {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 610px) {
+  .nav h3,
+  .nav p {
+    font-size: 1rem;
+  }
+}

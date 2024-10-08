@@ -40,3 +40,9 @@
   padding: 15px;
   border-radius: 8px;
 }
+
+@media (max-width: 500px) {
+  .produtos li {
+    width: 140px;
+  }
+}

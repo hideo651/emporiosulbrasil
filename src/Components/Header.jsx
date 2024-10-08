@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import logo from "../assets/logo_sul_brasil.jpg";
 
 const Header = () => {
   return (
@@ -6,12 +7,12 @@ const Header = () => {
       <nav className={`${styles.nav} container`}>
         <div className={styles.logoDiv}>
           <div className={styles.logo}>
-            <img src="../../src/assets/logo_sul_brasil.jpg" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
-          <h3>Empório da Carne e Hortifruti Sul Brasil</h3>
-        </div>
-        <div className={styles.contatos}>
-          <p>WhatsApp: (14) 99684-8475</p>
+          <div className={styles.info}>
+            <h3>Empório da Carne e Hortifruti Sul Brasil</h3>
+            <p>Endereço: Rua Inconfidência, 72 - Marília, SP</p>
+          </div>
         </div>
       </nav>
     </header>

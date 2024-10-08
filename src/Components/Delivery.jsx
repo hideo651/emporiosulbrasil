@@ -28,7 +28,7 @@ const Delivery = () => {
           </li>
           <li>
             <p>
-              <BsTelephone size={20} color="#5F9548" /> <span>Telefone:</span>{" "}
+              <FaWhatsapp size={20} color="#5F9548" /> <span>WhastApp:</span>{" "}
               (14) 99684-8475
             </p>
           </li>
@@ -55,12 +55,12 @@ const Delivery = () => {
             <h3>Delivery Sul Brasil</h3>
           </div>
           <ul className={styles.infos}>
-            <li>
+            {/* <li>
               <p>
                 <SiIfood size={20} color="red" /> <span>Ifood:</span> Estamos
                 atendendo no aplicativo
               </p>
-            </li>
+            </li> */}
             <li>
               {" "}
               <p>
@@ -69,12 +69,12 @@ const Delivery = () => {
                 restaurantes.
               </p>
             </li>
-            <li>
+            {/* <li>
               <p>
                 <FaWhatsapp size={20} color="#5F9548" /> <span>WhatsApp:</span>{" "}
                 Atendemos pedidos via WhatsApp com promoções diarias.
               </p>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

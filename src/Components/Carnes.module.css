@@ -74,4 +74,8 @@
   .lista li {
     width: 140px;
   }
+
+  .section h2 {
+    font-size: 2.5rem;
+  }
 }

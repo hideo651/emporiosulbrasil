@@ -31,4 +31,8 @@
     flex-direction: column-reverse;
     align-items: center;
   }
+
+  .conteudoInfo h3 {
+    font-size: 2.5rem;
+  }
 }
